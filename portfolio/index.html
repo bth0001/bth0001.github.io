@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet.css" href="http://bitballoon.scdn4.secure.raxcdn.com/css/9b74ba09c7c91dd2bd1ee98f820e625613a4fda9/style.css">
+</head>
+<body>
+  <header>
+    <img src="http://i.imgur.com/J7n1UR5.jpg">
+    <h1>Brad Hughes</h1>
+    <ul>
+      <li><a href="/about me">About Me</a></li>
+      <li><a href="/contact me">Contact Me</a></li>
+      <li><a href="/typing test">Typing Test</a></li>
+    </ul>
+  </header>
+  <button onclick="myFunction()">Click to enter your name</button>
+  <p id="demo"></p>
+  <script>
+  function myFunction() {
+    var person = prompt("Please enter your name", "");
+
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! I hope you enjoy my website!";
+    }
+  }
+  </script>
+
+</body>
+</html>
