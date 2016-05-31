@@ -277,6 +277,13 @@ th {
   background: url(http://i.imgur.com/GiitB5n.jpg) no-repeat;
 }
 
+.skills {
+  list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
 .glyphicon {
   position: relative;
   top: 1px;
